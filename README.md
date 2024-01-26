@@ -8,3 +8,7 @@ Participants :
 	Ethan LANGER
 	Anthony MOAL
 	Etienne LARROUMETS
+
+Installation : 
+
+Modifier les lignes dans la classe Files pour les faire correspondre au chemin absolu des fichiers annuaire.csv et comptes.csv
