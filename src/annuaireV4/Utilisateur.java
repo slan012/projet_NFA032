@@ -46,7 +46,7 @@ public abstract class Utilisateur {
 
     public static boolean authUser(String mail, String password) {
         try {
-            BufferedReader br = new BufferedReader(new FileReader(annuaireV4.Files.COMPTES));
+            BufferedReader br = new BufferedReader(new FileReader(Files.COMPTES));
             String line = br.readLine();
 
             while (true) {
@@ -72,7 +72,7 @@ public abstract class Utilisateur {
     public static boolean userExists(String email) {
 
         try {
-            BufferedReader br = new BufferedReader(new FileReader(annuaireV4.Files.COMPTES));
+            BufferedReader br = new BufferedReader(new FileReader(Files.COMPTES));
             String line = br.readLine();
 
             while (true) {
@@ -100,7 +100,7 @@ public abstract class Utilisateur {
  		try {
  			
  			// Reader pour comptes.csv
- 			BufferedReader brc = new BufferedReader(new FileReader(annuaireV4.Files.COMPTES));
+ 			BufferedReader brc = new BufferedReader(new FileReader(Files.COMPTES));
  			
  			String [] user;
  			String ligneCompte = brc.readLine();
@@ -113,7 +113,7 @@ public abstract class Utilisateur {
  						return new Administrateur(user[0], user[1]);
 
  					} else if (user[2].equals("particulier")) {
- 						BufferedReader bra = new BufferedReader(new FileReader(annuaireV4.Files.ANNUAIRE));
+ 						BufferedReader bra = new BufferedReader(new FileReader(Files.ANNUAIRE));
  						
  						String[] particulier;
  						String ligneAnnuaire = bra.readLine();
