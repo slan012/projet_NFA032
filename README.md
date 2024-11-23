@@ -1,11 +1,11 @@
-Projet de groupe NFA032 CNAM 2023/2024
+# Projet de groupe NFA032 CNAM 2023/2024
 
-Annuaire de contacts.
+## Annuaire de contacts
 
 Participants :
 
-Estelle DUVAL
-Odile HUHARDEAUX
-Ethan LANGER
-Anthony MOAL
-Etienne LARROUMETS
+  - Estelle DUVAL
+  - Odile HUHARDEAUX
+  - Ethan LANGER
+  - Anthony MOAL
+  - Etienne LARROUMETS
